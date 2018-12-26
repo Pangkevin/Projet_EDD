@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="TalendDate.diffDate(TalendDate.parseDate(&quot;dd/MM/yyyy&quot;,row2.lastSeen),TalendDate.parseDate(&quot;dd/MM/yyyy&quot;, row2.dateCrawled), &quot;dd&quot;,true)">
+  <variables name="row2.dateCrawled" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.seller" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.offerType" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.price" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.abtest" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.vehicleType" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.yearOfRegistration" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.gearbox" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.powerPS" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.model" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.kilometer" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.monthOfRegistration" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.fuelType" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.brand" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.notRepairedDamage" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.dateCreated" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.nrOfPictures" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.postalCode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.lastSeen" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Postal_Code" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.Place_Name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.State" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.State_Abbreviation" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.City" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Latitude" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Longitude" value="null" talendType="id_Float" nullable="true"/>
+  <variables name="row3.Column7" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.Column8" value="null" talendType="id_String" nullable="true"/>
+  <variables name="(&quot;dd/MM/yyyy HH:mm:ss&quot;,TalendDate.parseDate)  row2.dateCrawled " value="null" talendType="id_String"/>
+  <variables name="TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,row2.dateCrawled ) " value="null" talendType="id_String"/>
+  <variables name="row2.yearOfRegistration  row2.monthOfRegistration " value="null" talendType="id_String"/>
+  <variables name="TalendDate.parseDate(&quot;MM/yyyy&quot;,row2.monthOfRegistration+&quot;/&quot;+row2.yearOfRegistration) " value="null" talendType="id_String"/>
+  <variables name="TalendDate.diffDate(myDate,myDate2,&quot;MM&quot;,true)  row2.lastSeen  row2.dateCrawled " value="null" talendType="id_String"/>
+  <variables name="TalendDate.diffDate(TalendDate.parseDate(&quot;dd/MM/yyyy&quot;,TalendDate.parseDate(&quot;dd/MM/yyyy&quot;,row2.lastSeen ).dateCrawled),myDate2,&quot;dd&quot;,true) " value="null" talendType="id_String"/>
+  <variables name="" value="null" talendType="id_String"/>
+  <variables name="TalendDate.diffDate(TalendDate.parseDate(&quot;dd/MM/yyyy&quot;, new Date),TalendDate.parseDate(&quot;dd/MM/yyyy&quot;,row2.dateCreated),&quot;yyyy&quot;,true) " value="null" talendType="id_String"/>
+</expression:EMFExpression>

@@ -5,6 +5,14 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_41V7EAkpEem3uOybouvMOw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_s_nvoAk8Eem3uOybouvMOw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "DataOperation",
     "version" : "Latest",
     "type" : "routine"
@@ -40,5 +48,13 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_41V7EAkpEem3uOybouvMOw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_s_nvoAk8Eem3uOybouvMOw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 } ]
